@@ -1,0 +1,41 @@
+body{
+  background-color: grey;
+}
+
+.pacman{
+	margin:100px 20px;
+}
+
+.pacman1{
+  position: relative;
+	background: yellow;
+	height: 100px;
+	width:200px;
+	border-radius: 0 0 100px 100px;
+  animation: abajo 3s linear 0s infinite;
+}
+
+
+.packman{
+  position: relative;
+  background: yellow;
+  height: 100px;
+  width: 200px;
+  border-radius: 100px 100px 0 0;
+  animation: arriba 3s linear 0s infinite;
+}
+@keyframes abajo{
+0% {transform: rotate(0deg);left: 0px}
+25%{transform: rotate(+45deg);left: 100px}
+50%{transform: rotate(0deg);top:100px}
+75%{transform: rotate(+45deg);top:50px}
+100%{transform: rotate(0deg);left:50px}
+}
+
+@keyframes arriba{
+0% {transform: rotate(0deg);left:0px}
+25%{transform: rotate(-45deg);left: 100px}
+50%{transform: rotate(0deg);top:100px}
+75%{transform: rotate(-45deg);top:50px}
+100%{transform: rotate(0deg);left:50px}
+}
