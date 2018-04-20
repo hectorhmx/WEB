@@ -5,9 +5,11 @@ class Buscar:
 
   def voltear(self):
       for i in self.lista:
-        if(i%3!=0):
-          print(i)
+        if(i%3==0):
+            continue
         elif(i==0):
+            print(i)
+        else:
             print(i)
 
 lista= list(range(0,7))

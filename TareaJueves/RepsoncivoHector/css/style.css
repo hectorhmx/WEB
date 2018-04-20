@@ -1,0 +1,21 @@
+p{width: 100%;
+	color: black;
+	background: white;}
+
+.Contenido{	color: black;
+	text-align: center;
+	padding: 10px;
+	margin-left: 10%;
+	margin-right: 10%;}
+
+@media screen and (max-width: 1800px) and (min-width: 992px)
+{body{background-color: grey;}}
+
+@media screen and (max-width: 992px) and (min-width: 600px)
+{body{background: #612A2A;}
+h1{color: #2AEC0F;}
+p{color: #DD1B2C;}}
+
+@media screen and (max-width: 400px) and (min-width: 0px)
+{body{background: #004d40;
+		color: black;}}
