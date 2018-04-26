@@ -8,7 +8,7 @@
 </head>
 <body>
 	<nav>
-    <div class="nav-wrapper #3f51b5 indigo">
+    <div class="nav-wrapper #f44336 red">
       <a href="#!" class="brand-logo"><img src="img\logoxxo.png" alt="aqui deberia haber un logo" id= "logo"></a>
       <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
@@ -16,6 +16,7 @@
         <li><a href="productos.html">Productos</a></li>
         <li><a href="promociones.html">Promociones</a></li>
         <li><a href="cotacto.html">Contacto</a></li>
+        <li><a href="conocenos.html">Conocenos</a></li>
       </ul>
     </div>
   </nav>
@@ -24,7 +25,8 @@
     <li><a href="index.html">Inicio</a></li>
     <li><a href="productos.html">Productos</a></li>
     <li><a href="promociones.html">Promociones</a></li>
-    <li><a href="contacto.html">Contacto</a></li>
+    <li><a href="cotacto.html">Contacto</a></li>
+    <li><a href="conocenos.html">Conocenos</a></li>
   </ul>
     <!--Termina nav, empieza footer-->   
 
@@ -38,7 +40,7 @@
       <img class="activator" src="img/XX.jpg">
     </div>
     <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">Chelas 2X <i class="material-icons right">more_vert</i></span>
+      <span class="card-title activator grey-text text-darken-4">Chelas 2X <i class="material-icons right"></i></span>
       <p><a href="#">comprar</a></p>
     </div>
     <div class="card-reveal">
@@ -51,14 +53,14 @@
             
   <div class="card">
     <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="images/office.jpg">
+      <img class="activator" src="img/coca.jpg">
     </div>
     <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-      <p><a href="#">This is a link</a></p>
+      <span class="card-title activator grey-text text-darken-4">Cocacola<i class="material-icons right"></i></span>
+      <p><a href="#">comprar</a></p>
     </div>
     <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+      <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
       <p>Here is some more information about this product that is only revealed once clicked on.</p>
     </div>
   </div>
@@ -67,10 +69,10 @@
            
   <div class="card">
     <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="images/office.jpg">
+      <img class="activator" src="img/takis.jpg">
     </div>
     <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+      <span class="card-title activator grey-text text-darken-4">Takis<i class="material-icons right"></i></span>
       <p><a href="#">This is a link</a></p>
     </div>
     <div class="card-reveal">
@@ -95,6 +97,55 @@
               </div>
             </div>
           </div>
+			<main>
+			
+			<div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+          <label for="first_name">First Name</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="last_name" type="text" class="validate">
+          <label for="last_name">Last Name</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input disabled value="I am not editable" id="disabled" type="text" class="validate">
+          <label for="disabled">Disabled</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="password" type="password" class="validate">
+          <label for="password">Password</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate">
+          <label for="email">Email</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          This is an inline input field:
+          <div class="input-field inline">
+            <input id="email" type="email" class="validate">
+            <label for="email" data-error="wrong" data-success="right">Email</label>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+
+
+			</main>
+
+
+
           <div class="footer-copyright">
             <div class="container">
             © 2014 Copyright Text
@@ -103,7 +154,7 @@
           </div>
         </footer>         
 </body>
-<script type="js/jquery.js"></script>
-<script type="js/add.js"></script>
-<script type="js/materialize.min.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/materialize.min.js"></script>
+<script src="js/add.js"></script>
 </html>
